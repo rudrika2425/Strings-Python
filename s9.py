@@ -1,0 +1,7 @@
+line=input("enter the string:").split()
+l=list(line)
+n=len(l)
+l.sort(key=len)
+print(l)
+print(l[n-1])
+print(l[0])
